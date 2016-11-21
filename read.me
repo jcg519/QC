@@ -1,0 +1,41 @@
+########################
+#the input file:
+#rs1000597 CEU
+#rs10033464 CEU
+#rs1004819 CEU
+#rs10050860 CEU
+#rs10086908 CEU
+#rs10088218 CEU
+#rs1014971 CEU
+#rs1015213 CEU
+#rs10166942 CEU
+#rs1024161 CEU
+#
+#the output file:
+#######the LD rsid and R2值
+#SNP_A SNP_B R2
+#rs1004819 rs2902440 0.868139
+#rs1024161 rs11571292 0.989652
+#rs1024161 rs926169 0.993673
+#rs1024161 rs231770 0.989609
+#rs10166942 rs11892538 1
+#rs10166942 rs11563063 1
+#rs10166942 rs6738979 1
+####### 基因频率纯合######
+#rs10088218 {u'GG': u'0.9612', u'AA': u'0', u'GA': u'0.0388'}
+####### 人种基因频率与中国人的基因频率相反 ######
+#rs10166942 {u'CC': u'0.4175', u'TT': u'0.1650', u'TC': u'0.4175'} {u'CC': u'0.0202', u'TT': u'0.7071', u'TC': u'0.2727'}
+############------------------------------------################
+Usage: ./QC.py -1 input1 -o outputfile
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -1 INPUT1, --input1=INPUT1
+                        the rsid input file,rs1000597 CEU rs10033464 CEU
+                        rs1004819 CEU rs10050860 CEU rs10086908 CEU
+  -o OUTPUT, --output=OUTPUT
+                        the output file#
+#
+############-----------------------------------##################
+
